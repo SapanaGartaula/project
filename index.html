@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bibliomania Pustakalaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <div>
+  
+    <div class="bg-black h-7">
+
+     <div class="">   <div class="text-white italic font-bold  sm:text-sm sm:mt-0.5 sm:ml-1 md:ml-12 lg:ml-16 2xl:ml-20 lg:text-[16px]">An impressive collection of books you will love under one roof</div></div>
+      
+        <div class="icons ">
+            <ul class=" float-right  ">
+                <li>
+                  <img class="w-4  h-4 mr-2 mt-1.5 hover:bg-green-900 " src="photos/facebook.svg" alt="">
+                </li>
+                <li>
+                  <img class="w-4  h-4 mr-2 mt-1.5 hover:bg-green-900 " src="photos/twitter.svg" alt="">
+                  
+                </li>
+                <li>
+                  <img class="w-4  h-4 mr-2 mt-1.5 hover:bg-green-900 sm:mr-0 " src="photos/youtube.svg" alt="">
+                </li>
+                
+              </ul>
+               </div>
+        </div>
+          
+        </div>
+        <div class="header ">
+          <div class="header-1 ">
+            <div class="logo justify-start ">   <img class="" src="photos/bookstorelogo.png" alt=""> </div>
+              <div class="btn-group">
+                  <button class="btn btn-secondary btn-lg dropdown-toggle text-black " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-solid fa-bars "></i> Categories
+                  </button>
+                  <div class="dropdown-menu bg-slate-300 ">
+                      <a class="dropdown-item" href="#">Self-Help</a>
+                      <a class="dropdown-item" href="#">Horror</a>
+                      <a class="dropdown-item" href="#">Romance</a>
+                      <a class="dropdown-item" href="#">Children's</a>
+                      <a class="dropdown-item" href="#">History</a>
+                      <a class="dropdown-item" href="#">Health</a>
+        
+                  </div>
+                </div>
+                
+              <form action="" class="search-form  ">
+                  <input type="search" name="" placeholder="search by Title,Author or ISBN" id="search-box">
+                  <label for="search-box" class="fas fa-search mt-1 "></label>
+              </form>
+              
+      
+              <div class="icons mt-1">
+               
+                
+                  <div id="search-btn" class="fas fa-search  "></div>
+                  
+                  <span title="Books you've Liked"><a href="#" class="fas fa-heart hover:scale-105 duration-300">
+                  </a></span>
+
+                  <a href="#" class="fas fa-shopping-cart hover:scale-105 duration-300"></a>
+                  <a href="#"  class=" dark-mode fa-regular fas fa-moon hover:scale-105 duration-300"></a>
+
+                  <a href="login.html" data-toggle="modal" data-target=".bd-example-modal-lg"> <span title="Login">
+                     <div class="fas fa-user hover:scale-105 duration-300 ml-1"></div> </span> </a>
+                  
+
+
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="photos/book2.jpg" class="d-block w-100" alt="...">
+               
+                
+              </div>
+              <div class="carousel-item ">
+                <img src="photos/book1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="photos/book3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="botn flex flex-col position-relative align-items-center  sm:-mt-0 sm:mt-20 md:mt-24 ">
+              <button class="text-white bg-black px-4 py-2 font-bold rounded-lg mt-14  mx-5 hover:bg-gray-600 hover:scale-105 duration-300 ">shop Now</button>
+            </div>
+            </div>
+            <a class="carousel-control-prev h-16" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next h-16" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon " aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <div class="my-14">
+            <div class="flex flex-row justify-between"> 
+              <h2 class="text-3xl mx-12 font-bold">New Arrivals</h2>
+              <a href="#" class="text-xl fond-bold flex flex-row mr-5">
+                View All
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-7 mt-0.5 ml-1">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>  
+                </a>
+  
+            </div>
+        </div>
+          <div class=" mt-1 grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mx-5">
+             <div class="shadow-lg rounded-lg">
+              <a href="">
+                <img src="photos/subtle.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                </a>
+              
+                <div class="mx-1 ">
+                  <h3 class=" font-semibold"><a href="#"> The Subtle Art Of Not Giving a F*ck </a></h3>
+                  <h5> <a href="#"> by Mark Manson </a></h5>
+                  <p class="text-xl font-weight-bold mt-0.5">Rs. 320 </p>
+                  <div class="fav float-right -mt-5">
+                    <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                   </div>
+                </div>
+                  <div class="rate">
+                    <div class="contain flex flex-row">
+                      <div class="stars ml-1">
+                        <input type="radio" id="one" name="rate" value="1">
+                        <label for="one" class="fas fa-star"></label>
+                        <input type="radio" id="two" name="rate" value="2">
+                        <label for="two" class="fas fa-star"></label>
+                        <input type="radio" id="three" name="rate" value="3">
+                        <label for="three" class="fas fa-star"></label>
+                        <input type="radio" id="four" name="rate" value="4">
+                        <label for="four" class="fas fa-star"></label>
+                        <input type="radio" id="five" name="rate" value="5">
+                        <label for="five" class="fas fa-star"></label>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="flex mt-1 justify-content-center  ">
+                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                        Add to Cart
+                    </button>
+                  </div>
+            
+              </div>
+             
+              <div class="shadow-lg rounded-lg">
+                <a href="">
+               <img src="photos/antarman.jpeg" class="hover:scale-110 duration-300 rounded-tl-lg rounded-tr-lg" alt="">
+              </a>
+              <div class="mx-1 ">
+                <h3 class=" font-semibold"> <a href="#">Antarman ko yatra</a></h3>
+                <h5><a href="#">by Jagdish Ghimire</a></h5>
+                <p class="text-xl font-weight-bold mt-0.5">Rs. 450 </p>
+                <div class="fav float-right -mt-5">
+                  <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                 </div>
+              </div>
+                <div class=" rate">
+
+                    <div class="contain flex flex-row">
+                      <div class="stars ml-1">
+                        <input type="radio" id="five" name="rate" value="1">
+                        <label for="five" class="fas fa-star"></label>
+                        <input type="radio" id="four" name="rate" value="2">
+                        <label for="four" class="fas fa-star"></label>
+                        <input type="radio" id="three" name="rate" value="3">
+                        <label for="three" class="fas fa-star"></label>
+                        <input type="radio" id="two" name="rate" value="4">
+                        <label for="two" class="fas fa-star"></label>
+                        <input type="radio" id="one" name="rate" value="5">
+                        <label for="one" class="fas fa-star"></label>
+
+                      </div>
+                    </div>
+                   
+                </div>
+                <div class="flex mt-1 justify-content-center  ">
+                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                        Add to Cart
+                    </button>
+                  </div>
+              </div>
+              <div class="shadow-lg rounded-lg">
+                <a href="">
+                  <img src="photos/geeta.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                  </a>
+                
+                  <div class="mx-1 ">
+                    <h3 class=" font-semibold"><a href="#"> Srimad Bhagwatgeeta</a></h3>
+                    <h5> <a href="#"> by A.C Bhaktivedanta  </a></h5>
+                    <p class="text-xl font-weight-bold mt-0.5">Rs. 650 </p>
+                    <div class="fav float-right -mt-5">
+                      <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                     </div>
+                  </div>
+                    <div class="rate">
+                      <div class="contain flex flex-row">
+                        <div class="stars ml-1">
+                          <input type="radio" id="one" name="rate" value="1">
+                          <label for="one" class="fas fa-star"></label>
+                          <input type="radio" id="two" name="rate" value="2">
+                          <label for="two" class="fas fa-star"></label>
+                          <input type="radio" id="three" name="rate" value="3">
+                          <label for="three" class="fas fa-star"></label>
+                          <input type="radio" id="four" name="rate" value="4">
+                          <label for="four" class="fas fa-star"></label>
+                          <input type="radio" id="five" name="rate" value="5">
+                          <label for="five" class="fas fa-star"></label>
+  
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="flex mt-1 justify-content-center  ">
+                        <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                            Add to Cart
+                        </button>
+                      </div>
+               
+                </div>
+                <div class="shadow-lg rounded-lg">
+                  <a href="">
+                    <img src="photos/karnali.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                    </a>
+                  
+                    <div class="mx-1 ">
+                      <h3 class=" font-semibold"><a href="#"> Karnali Blues </a></h3>
+                      <h5> <a href="#"> by Buddhi Sagar </a></h5>
+                      <p class="text-xl font-weight-bold mt-0.5">Rs. 325 </p>
+                      <div class="fav float-right -mt-5">
+                        <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                       </div>
+                    </div>
+                      <div class="rate">
+                        <div class="contain flex flex-row">
+                          <div class="stars ml-1">
+                            <input type="radio" id="one" name="rate" value="1">
+                            <label for="one" class="fas fa-star"></label>
+                            <input type="radio" id="two" name="rate" value="2">
+                            <label for="two" class="fas fa-star"></label>
+                            <input type="radio" id="three" name="rate" value="3">
+                            <label for="three" class="fas fa-star"></label>
+                            <input type="radio" id="four" name="rate" value="4">
+                            <label for="four" class="fas fa-star"></label>
+                            <input type="radio" id="five" name="rate" value="5">
+                            <label for="five" class="fas fa-star"></label>
+    
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="flex mt-1 justify-content-center  ">
+                        <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                            Add to Cart
+                        </button>
+                      </div>
+                 
+                  </div>
+                  <div class="shadow-lg rounded-lg">
+                    <a href="">
+                      <img src="photos/kite.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                      </a>
+                    
+                      <div class="mx-1 ">
+                        <h3 class=" font-semibold"><a href="#"> The Kite Runner </a></h3>
+                        <h5> <a href="#"> by by Khaled Hosseini </a></h5>
+                        <p class="text-xl font-weight-bold mt-0.5">Rs. 958 </p>
+                        <div class="fav float-right -mt-5">
+                          <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                         </div>
+                      </div>
+                        <div class="rate">
+                          <div class="contain flex flex-row">
+                            <div class="stars ml-1">
+                              <input type="radio" id="one" name="rate" value="1">
+                              <label for="one" class="fas fa-star"></label>
+                              <input type="radio" id="two" name="rate" value="2">
+                              <label for="two" class="fas fa-star"></label>
+                              <input type="radio" id="three" name="rate" value="3">
+                              <label for="three" class="fas fa-star"></label>
+                              <input type="radio" id="four" name="rate" value="4">
+                              <label for="four" class="fas fa-star"></label>
+                              <input type="radio" id="five" name="rate" value="5">
+                              <label for="five" class="fas fa-star"></label>
+      
+                            </div>
+                          </div>
+                        
+                        </div>
+                        <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                    </div>
+                    <div class="shadow-lg rounded-lg">
+                      <a href="">
+                        <img src="photos/icebreaker.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                        </a>
+                      
+                        <div class="mx-1 ">
+                          <h3 class=" font-semibold"><a href="#"> Icebreaker </a></h3>
+                          <h5> <a href="#"> by by Hannah Grace </a></h5>
+                          <p class="text-xl font-weight-bold mt-0.5">Rs. 768 </p>
+                          <div class="fav float-right -mt-5">
+                            <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                           </div>
+                        </div>
+                          <div class="rate">
+                            <div class="contain flex flex-row">
+                              <div class="stars ml-1">
+                                <input type="radio" id="one" name="rate" value="1">
+                                <label for="one" class="fas fa-star"></label>
+                                <input type="radio" id="two" name="rate" value="2">
+                                <label for="two" class="fas fa-star"></label>
+                                <input type="radio" id="three" name="rate" value="3">
+                                <label for="three" class="fas fa-star"></label>
+                                <input type="radio" id="four" name="rate" value="4">
+                                <label for="four" class="fas fa-star"></label>
+                                <input type="radio" id="five" name="rate" value="5">
+                                <label for="five" class="fas fa-star"></label>
+        
+                              </div>
+                            </div>
+                           
+                          </div>
+                          <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                     
+                      </div>
+                      
+              
+              </div>
+              <div class="my-14">
+                <div class="flex flex-row justify-between"> 
+                  <h2 class="text-3xl mx-12 font-bold">Best Seller</h2>
+                  <a href="#" class="text-xl fond-bold flex flex-row mr-5">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-7 mt-0.5 ml-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>  
+                    </a>
+      
+                </div>
+            </div>
+            <div class=" mt-1 grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mx-5">
+              <div class="shadow-lg rounded-lg">
+               <a href="">
+                 <img src="photos/khushi.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                 </a>
+               
+                 <div class="mx-1 ">
+                   <h3 class=" font-semibold"><a href="#"> Khushi </a></h3>
+                   <h5> <a href="#"> by Bijay Kumar Pandey </a></h5>
+                   <p class="text-xl font-weight-bold mt-0.5">Rs. 520 </p>
+                   <div class="fav float-right -mt-5">
+                     <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                    </div>
+                 </div>
+                   <div class="rate">
+                     <div class="contain flex flex-row">
+                       <div class="stars ml-1">
+                         <input type="radio" id="one" name="rate" value="1">
+                         <label for="one" class="fas fa-star"></label>
+                         <input type="radio" id="two" name="rate" value="2">
+                         <label for="two" class="fas fa-star"></label>
+                         <input type="radio" id="three" name="rate" value="3">
+                         <label for="three" class="fas fa-star"></label>
+                         <input type="radio" id="four" name="rate" value="4">
+                         <label for="four" class="fas fa-star"></label>
+                         <input type="radio" id="five" name="rate" value="5">
+                         <label for="five" class="fas fa-star"></label>
+ 
+                       </div>
+                     </div>
+                    
+                   </div>
+                   <div class="flex mt-1 justify-content-center  ">
+                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                        Add to Cart
+                    </button>
+                  </div>
+               </div>
+              
+               <div class="shadow-lg rounded-lg">
+                 <a href="">
+                <img src="photos/thepower.jpeg" class="hover:scale-110 duration-300 rounded-tl-lg rounded-tr-lg" alt="">
+               </a>
+               <div class="mx-1 ">
+                 <h3 class=" font-semibold"> <a href="#">The Power of Your Subconcious Mind</a></h3>
+                 <h5><a href="#">by Dr Joseph Murphy</a></h5>
+                 <p class="text-xl font-weight-bold mt-0.5">Rs. 500 </p>
+                 <div class="fav float-right -mt-5">
+                   <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                  </div>
+               </div>
+                 <div class=" rate">
+ 
+                     <div class="contain flex flex-row">
+                       <div class="stars ml-1">
+                         <input type="radio" id="five" name="rate" value="1">
+                         <label for="five" class="fas fa-star"></label>
+                         <input type="radio" id="four" name="rate" value="2">
+                         <label for="four" class="fas fa-star"></label>
+                         <input type="radio" id="three" name="rate" value="3">
+                         <label for="three" class="fas fa-star"></label>
+                         <input type="radio" id="two" name="rate" value="4">
+                         <label for="two" class="fas fa-star"></label>
+                         <input type="radio" id="one" name="rate" value="5">
+                         <label for="one" class="fas fa-star"></label>
+ 
+                       </div>
+                     </div>
+                     
+                 </div>
+                 <div class="flex mt-1 justify-content-center  ">
+                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                        Add to Cart
+                    </button>
+                  </div>
+               </div>
+
+               <div class="shadow-lg rounded-lg">
+                <a href="">
+                  <img src="photos/osho.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                  </a>
+                
+                  <div class="mx-1 ">
+                    <h3 class=" font-semibold"><a href="#"> The Book of Woman </a></h3>
+                    <h5> <a href="#"> by by Osho </a></h5>
+                    <p class="text-xl font-weight-bold mt-0.5">Rs. 510 </p>
+                    <div class="fav float-right -mt-5">
+                      <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                     </div>
+                  </div>
+                    <div class="rate">
+                      <div class="contain flex flex-row">
+                        <div class="stars ml-1">
+                          <input type="radio" id="one" name="rate" value="1">
+                          <label for="one" class="fas fa-star"></label>
+                          <input type="radio" id="two" name="rate" value="2">
+                          <label for="two" class="fas fa-star"></label>
+                          <input type="radio" id="three" name="rate" value="3">
+                          <label for="three" class="fas fa-star"></label>
+                          <input type="radio" id="four" name="rate" value="4">
+                          <label for="four" class="fas fa-star"></label>
+                          <input type="radio" id="five" name="rate" value="5">
+                          <label for="five" class="fas fa-star"></label>
+  
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="flex mt-1 justify-content-center  ">
+                        <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                            Add to Cart
+                        </button>
+                      </div>
+               
+                </div>
+                <div class="shadow-lg rounded-lg">
+                  <a href="">
+                    <img src="photos/atomic.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                    </a>
+                  
+                    <div class="mx-1 ">
+                      <h3 class=" font-semibold"><a href="#"> Atomic Habits </a></h3>
+                      <h5> <a href="#"> by James Clear </a></h5>
+                      <p class="text-xl font-weight-bold mt-0.5">Rs. 650 </p>
+                      <div class="fav float-right -mt-5">
+                        <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                       </div>
+                    </div>
+                      <div class="rate">
+                        <div class="contain flex flex-row">
+                          <div class="stars ml-1">
+                            <input type="radio" id="one" name="rate" value="1">
+                            <label for="one" class="fas fa-star"></label>
+                            <input type="radio" id="two" name="rate" value="2">
+                            <label for="two" class="fas fa-star"></label>
+                            <input type="radio" id="three" name="rate" value="3">
+                            <label for="three" class="fas fa-star"></label>
+                            <input type="radio" id="four" name="rate" value="4">
+                            <label for="four" class="fas fa-star"></label>
+                            <input type="radio" id="five" name="rate" value="5">
+                            <label for="five" class="fas fa-star"></label>
+    
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="flex mt-1 justify-content-center  ">
+                        <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                            Add to Cart
+                        </button>
+                      </div>
+                 
+                  </div>
+                  <div class="shadow-lg rounded-lg">
+                    <a href="">
+                      <img src="photos/pahelpur.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                      </a>
+                    
+                      <div class="mx-1 ">
+                        <h3 class=" font-semibold"><a href="#"> पहेँलपुर </a></h3>
+                        <h5> <a href="#"> by G.S. Poudel </a></h5>
+                        <p class="text-xl font-weight-bold mt-0.5">Rs. 600 </p>
+                        <div class="fav float-right -mt-5">
+                          <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                         </div>
+                      </div>
+                        <div class="rate">
+                          <div class="contain flex flex-row">
+                            <div class="stars ml-1">
+                              <input type="radio" id="one" name="rate" value="1">
+                              <label for="one" class="fas fa-star"></label>
+                              <input type="radio" id="two" name="rate" value="2">
+                              <label for="two" class="fas fa-star"></label>
+                              <input type="radio" id="three" name="rate" value="3">
+                              <label for="three" class="fas fa-star"></label>
+                              <input type="radio" id="four" name="rate" value="4">
+                              <label for="four" class="fas fa-star"></label>
+                              <input type="radio" id="five" name="rate" value="5">
+                              <label for="five" class="fas fa-star"></label>
+      
+                            </div>
+                          </div>
+                        
+                        </div>
+                        <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                    </div>
+                    <div class="shadow-lg rounded-lg">
+                      <a href="">
+                        <img src="photos/setodharti.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                        </a>
+                      
+                        <div class="mx-1 ">
+                          <h3 class=" font-semibold"><a href="#"> Seto Dharti </a></h3>
+                          <h5> <a href="#"> by Amar Neupane </a></h5>
+                          <p class="text-xl font-weight-bold mt-0.5">Rs. 700 </p>
+                          <div class="fav float-right -mt-5">
+                            <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                           </div>
+                        </div>
+                          <div class="rate">
+                            <div class="contain flex flex-row">
+                              <div class="stars ml-1">
+                                <input type="radio" id="one" name="rate" value="1">
+                                <label for="one" class="fas fa-star"></label>
+                                <input type="radio" id="two" name="rate" value="2">
+                                <label for="two" class="fas fa-star"></label>
+                                <input type="radio" id="three" name="rate" value="3">
+                                <label for="three" class="fas fa-star"></label>
+                                <input type="radio" id="four" name="rate" value="4">
+                                <label for="four" class="fas fa-star"></label>
+                                <input type="radio" id="five" name="rate" value="5">
+                                <label for="five" class="fas fa-star"></label>
+        
+                              </div>
+                            </div>
+                           
+                          </div>
+                          <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                     
+                      </div>
+                      
+               
+               </div>
+               <div class="my-14">
+                <div class="flex flex-row justify-between"> 
+                  <h2 class="text-3xl mx-12 font-bold">Most Rated</h2>
+                  <a href="#" class="text-xl fond-bold flex flex-row mr-5">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-7 mt-0.5 ml-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>  
+                    </a>
+                    </div>
+                    </div>
+                    <div class=" mt-1 grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mx-5">
+                      <div class="shadow-lg rounded-lg">
+                       <a href="">
+                         <img src="photos/Nathiya.png" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                         </a>
+                       
+                         <div class="mx-1 ">
+                           <h3 class=" font-semibold"><a href="#"> Nathiya </a></h3>
+                           <h5> <a href="#"> by Saraswati Pratikshya </a></h5>
+                           <p class="text-xl font-weight-bold mt-0.5">Rs. 400 </p>
+                           <div class="fav float-right -mt-5">
+                             <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                            </div>
+                         </div>
+                           <div class="rate">
+                             <div class="contain flex flex-row">
+                               <div class="stars ml-1">
+                                 <input type="radio" id="one" name="rate" value="1">
+                                 <label for="one" class="fas fa-star"></label>
+                                 <input type="radio" id="two" name="rate" value="2">
+                                 <label for="two" class="fas fa-star"></label>
+                                 <input type="radio" id="three" name="rate" value="3">
+                                 <label for="three" class="fas fa-star"></label>
+                                 <input type="radio" id="four" name="rate" value="4">
+                                 <label for="four" class="fas fa-star"></label>
+                                 <input type="radio" id="five" name="rate" value="5">
+                                 <label for="five" class="fas fa-star"></label>
+         
+                               </div>
+                             </div>
+                           
+                           </div>
+                           <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                      
+                       </div>
+                      
+                       <div class="shadow-lg rounded-lg">
+                         <a href="">
+                        <img src="photos/ek-sarko-maya.jpg" class="hover:scale-110 duration-300 rounded-tl-lg rounded-tr-lg" alt="">
+                       </a>
+                       <div class="mx-1 ">
+                         <h3 class=" font-semibold"> <a href="#">Ek Sarko Maaya</a></h3>
+                         <h5><a href="#">by GS Poudel</a></h5>
+                         <p class="text-xl font-weight-bold mt-0.5">Rs. 600 </p>
+                         <div class="fav float-right -mt-5">
+                           <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                          </div>
+                       </div>
+                         <div class=" rate">
+         
+                             <div class="contain flex flex-row">
+                               <div class="stars ml-1">
+                                 <input type="radio" id="five" name="rate" value="1">
+                                 <label for="five" class="fas fa-star"></label>
+                                 <input type="radio" id="four" name="rate" value="2">
+                                 <label for="four" class="fas fa-star"></label>
+                                 <input type="radio" id="three" name="rate" value="3">
+                                 <label for="three" class="fas fa-star"></label>
+                                 <input type="radio" id="two" name="rate" value="4">
+                                 <label for="two" class="fas fa-star"></label>
+                                 <input type="radio" id="one" name="rate" value="5">
+                                 <label for="one" class="fas fa-star"></label>
+         
+                               </div>
+                             </div>
+                            
+                         </div>
+                         <div class="flex mt-1 justify-content-center  ">
+                            <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                Add to Cart
+                            </button>
+                          </div>
+                       </div>
+                       <div class="shadow-lg rounded-lg">
+                        <a href="">
+                          <img src="photos/itendswithus.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                          </a>
+                        
+                          <div class="mx-1 ">
+                            <h3 class=" font-semibold"><a href="#"> It Ends With Us </a></h3>
+                            <h5> <a href="#"> by Colleen Hoover </a></h5>
+                            <p class="text-xl font-weight-bold mt-0.5">Rs. 798 </p>
+                            <div class="fav float-right -mt-5">
+                              <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                             </div>
+                          </div>
+                            <div class="rate">
+                              <div class="contain flex flex-row">
+                                <div class="stars ml-1">
+                                  <input type="radio" id="one" name="rate" value="1">
+                                  <label for="one" class="fas fa-star"></label>
+                                  <input type="radio" id="two" name="rate" value="2">
+                                  <label for="two" class="fas fa-star"></label>
+                                  <input type="radio" id="three" name="rate" value="3">
+                                  <label for="three" class="fas fa-star"></label>
+                                  <input type="radio" id="four" name="rate" value="4">
+                                  <label for="four" class="fas fa-star"></label>
+                                  <input type="radio" id="five" name="rate" value="5">
+                                  <label for="five" class="fas fa-star"></label>
+          
+                                </div>
+                              </div>
+                             
+                            </div>
+                            <div class="flex mt-1 justify-content-center  ">
+                                <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                    Add to Cart
+                                </button>
+                              </div>
+                       
+                        </div>
+                        <div class="shadow-lg rounded-lg">
+                          <a href="">
+                            <img src="photos/summerlove.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                            </a>
+                          
+                            <div class="mx-1 ">
+                              <h3 class=" font-semibold"><a href="#"> समर लभ </a></h3>
+                              <h5> <a href="#"> by Subin Bhattarai</a></h5>
+                              <p class="text-xl font-weight-bold mt-0.5">Rs. 300 </p>
+                              <div class="fav float-right -mt-5">
+                                <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                               </div>
+                            </div>
+                              <div class="rate">
+                                <div class="contain flex flex-row">
+                                  <div class="stars ml-1">
+                                    <input type="radio" id="one" name="rate" value="1">
+                                    <label for="one" class="fas fa-star"></label>
+                                    <input type="radio" id="two" name="rate" value="2">
+                                    <label for="two" class="fas fa-star"></label>
+                                    <input type="radio" id="three" name="rate" value="3">
+                                    <label for="three" class="fas fa-star"></label>
+                                    <input type="radio" id="four" name="rate" value="4">
+                                    <label for="four" class="fas fa-star"></label>
+                                    <input type="radio" id="five" name="rate" value="5">
+                                    <label for="five" class="fas fa-star"></label>
+            
+                                  </div>
+                                </div>
+                               
+                              </div>
+                              <div class="flex mt-1 justify-content-center  ">
+                                <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                    Add to Cart
+                                </button>
+                              </div>
+                          </div>
+                          <div class="shadow-lg rounded-lg">
+                            <a href="">
+                              <img src="photos/mahabhara.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                              </a>
+                            
+                              <div class="mx-1 ">
+                                <h3 class=" font-semibold"><a href="#"> महाभारा </a></h3>
+                                <h5> <a href="#"> by Basanta Basnet </a></h5>
+                                <p class="text-xl font-weight-bold mt-0.5">Rs. 505 </p>
+                                <div class="fav float-right -mt-5">
+                                  <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                                 </div>
+                              </div>
+                                <div class="rate">
+                                  <div class="contain flex flex-row">
+                                    <div class="stars ml-1">
+                                      <input type="radio" id="one" name="rate" value="1">
+                                      <label for="one" class="fas fa-star"></label>
+                                      <input type="radio" id="two" name="rate" value="2">
+                                      <label for="two" class="fas fa-star"></label>
+                                      <input type="radio" id="three" name="rate" value="3">
+                                      <label for="three" class="fas fa-star"></label>
+                                      <input type="radio" id="four" name="rate" value="4">
+                                      <label for="four" class="fas fa-star"></label>
+                                      <input type="radio" id="five" name="rate" value="5">
+                                      <label for="five" class="fas fa-star"></label>
+              
+                                    </div>
+                                  </div>
+                                
+
+                                </div>
+                                <div class="flex mt-1 justify-content-center  ">
+                                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                        Add to Cart
+                                    </button>
+                                  </div>
+                           
+                            </div>
+                            <div class="shadow-lg rounded-lg">
+                              <a href="">
+                                <img src="photos/things.jpeg" class="rounded-tl-lg rounded-tr-lg hover:scale-110 duration-300" alt="" />
+                                </a>
+                              
+                                <div class="mx-1 ">
+                                  <h3 class=" font-semibold"><a href="#"> The Things We Leave Unfinished </a></h3>
+                                  <h5> <a href="#"> by Rebecca Yarros </a></h5>
+                                  <p class="text-xl font-weight-bold mt-0.5">Rs. 900 </p>
+                                  <div class="fav float-right -mt-5">
+                                    <img class="hover:scale-110 duration-300" src="photos/heart.svg" alt="">
+                                   </div>
+                                </div>
+                                  <div class="rate">
+                                    <div class="contain flex flex-row">
+                                      <div class="stars ml-1">
+                                        <input type="radio" id="one" name="rate" value="1">
+                                        <label for="one" class="fas fa-star"></label>
+                                        <input type="radio" id="two" name="rate" value="2">
+                                        <label for="two" class="fas fa-star"></label>
+                                        <input type="radio" id="three" name="rate" value="3">
+                                        <label for="three" class="fas fa-star"></label>
+                                        <input type="radio" id="four" name="rate" value="4">
+                                        <label for="four" class="fas fa-star"></label>
+                                        <input type="radio" id="five" name="rate" value="5">
+                                        <label for="five" class="fas fa-star"></label>
+                
+                                      </div>
+                                    </div>
+                                  
+                                  </div>
+                                  <div class="flex mt-1 justify-content-center  ">
+                                    <button class="line bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex hover:scale-105 duration-400 hover:from-pink-600 hover:to-pink-600">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 mt-1" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>
+                                        Add to Cart
+                                    </button>
+                                  </div>
+                             
+                              </div>
+                       
+                       </div>
+                </div>
+            </div>
+            
+              </div>
+             
+          </div>
+          
+          </div>
+          <div class="rounded-lg shadow-lg my-20 flex flex-row mx-12">
+            <div class="lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:from-black lg:via-purple-900 lg:to-transparent text-gray-100 rounded-lg p-1">
+              <div class="lg:w-1/2">
+                 <h3 class="text-2xl font-extrabold mt-6 mx-2">Subscribe to our Newsletter</h3>
+                 <p class="mt-3 leading-relaxed mx-2">Submit your email address to receive offers and updates from Bibliomania
+
+                 </p>
+                 <div>
+                  <input type="email" placeholder="Enter email address" class="bg-gray-600 text-gray-200 placeholder-gray-400 px-3 mx-3 mt-4 w-75 rounded-lg focus:outline-none">
+                  <button type="submit" class="bg-red-600 py-3 mt-3 mx-3 rounded-lg w-75">Subscribe </button>
+                 </div>
+              </div>
+  
+            </div>
+            <div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden lg:mr-12">
+              <img src="photos/news.png" class="h-96 bg-white" alt="">
+  
+            </div>
+  
+          </div>
+          <footer>
+            <div class="p-10 bg-gray-800 text-gray-200 mx-3">
+              <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                   <div class="mb-5">
+                    <h2 class="font-weight-bold pb-3 text-2xl">Popular Genres</h2>
+                    <p class="pb-3"><i class="fa fa-chevron-right"></i> <a href="#" class="hover:text-yellow-500">Nepali</a></p>
+                    <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Fiction </a></p>
+                    <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Self Help </a></p>
+                    <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Business </a></p>
+                    <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Romantic </a></p>
+                    
+                    
+                  </div>
+                  <div class="mb-5">
+                    <h2 class="font-weight-bold pb-3 text-2xl">Menu</h2>
+                    
+                      <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Home </a></p>
+                      <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">About Us</a></p>
+                      <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Services</a></p>
+                      <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Terms of Services</a></p>
+                      <p class="pb-3"><i class="fa fa-chevron-right"></i><a href="#" class="hover:text-yellow-500">Privacy Policy </a></p>
+                    
+                  </div>
+                  <div class="mb-5">
+                  
+          
+                   <h2 class="font-weight-bold pb-4 text-2xl">Support</h2>
+                     <p>Phone: 01- 4801970 </p>
+                    <p>Mobile: +97798149801879 </p> 
+                    <strong>Email:</strong> <br>
+                     <p> <u> Bibliomania04@gmail.com</u></p>
+                  </div>
+                 
+                     
+                      <div class="mb-5">
+                    <h2 class="text-2xl pb-4 font-weight-bold">Physical Store</h2>
+                    <p class="mt-1">Damak-09, Campusmode</p>
+                   <p> Near to DMC college </p>
+                   <p>Jhapa</p>
+                    
+                  </div>
+                     
+                </div>
+
+              </div>
+            </div>
+          </footer>
+         
+        </div>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-3 items-center">
+                <div class="md:w-1/2 px-8 -mt-5">
+                    <h2 class="font-bold text-2xl mt-3">You must login</h2>
+                    <form action="" id="form" class="flex flex-col gap-4">
+                        <input type="email"  class="p-2 mt-3 rounded-xl border" name="Email" placeholder="Email Address">
+                            <div class="relative">
+                                <input type="password" class="p-2 rounded-xl border w-full" name="password" placeholder="Password">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-eye-slash absolute top-1/2 right-3 -translate-y-1/2" viewBox="0 0 16 16">
+                                    <path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+                                    <path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+                                    <path d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+                                  </svg>
+                            </div>
+                        <button class="bg-primary rounded-xl text-white py-2 hover:scale-105 duration-300">Login</button>
+                    </form>
+                    <div class="mt-3 grid grid-cols-3 items-center text-gray-400">
+                        <hr class="border-gray-400">
+                        <p class="border-gray-400 text-center text-sm">OR</p>
+                        <hr class="border-gray-400">
+                    </div>
+                    <button class="bg-white border py-2 w-full rounded-xl mt-1 flex justify-center items-center text-sm hover:scale-105 duration-300"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="mr-2" width="25px" height="30px" id="google"><path fill="#fbbb00" d="M113.47 309.408 95.648 375.94l-65.139 1.378C11.042 341.211 0 299.9 0 256c0-42.451 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.501-8.215 32.141-8.215 49.456.002 18.792 3.406 36.797 9.651 53.408z"></path><path fill="#518ef8" d="M507.527 208.176C510.467 223.662 512 239.655 512 256c0 18.328-1.927 36.206-5.598 53.451-12.462 58.683-45.025 109.925-90.134 146.187l-.014-.014-73.044-3.727-10.338-64.535c29.932-17.554 53.324-45.025 65.646-77.911h-136.89V208.176h245.899z"></path><path fill="#28b446" d="m416.253 455.624.014.014C372.396 490.901 316.666 512 256 512c-97.491 0-182.252-54.491-225.491-134.681l82.961-67.91c21.619 57.698 77.278 98.771 142.53 98.771 28.047 0 54.323-7.582 76.87-20.818l83.383 68.262z"></path><path fill="#f14336" d="m419.404 58.936-82.933 67.896C313.136 112.246 285.552 103.82 256 103.82c-66.729 0-123.429 42.957-143.965 102.724l-83.397-68.276h-.014C71.23 56.123 157.06 0 256 0c62.115 0 119.068 22.126 163.404 58.936z"></path></svg>Login with Google
+                    
+                </button>
+                    <button class="bg-white border py-1 w-full rounded-xl mt-1 flex justify-center items-center text-sm hover:scale-105 duration-300"><svg xmlns="http://www.w3.org/2000/svg" data-name="Ebene 1" viewBox="0 0 1024 1024" class="mr-2 " width="28px" height="38px" id="facebook-logo-2019"><path fill="#1877f2" d="M1024,512C1024,229.23016,794.76978,0,512,0S0,229.23016,0,512c0,255.554,187.231,467.37012,432,505.77777V660H302V512H432V399.2C432,270.87982,508.43854,200,625.38922,200,681.40765,200,740,210,740,210V336H675.43713C611.83508,336,592,375.46667,592,415.95728V512H734L711.3,660H592v357.77777C836.769,979.37012,1024,767.554,1024,512Z"></path><path fill="#fff" d="M711.3,660,734,512H592V415.95728C592,375.46667,611.83508,336,675.43713,336H740V210s-58.59235-10-114.61078-10C508.43854,200,432,270.87982,432,399.2V512H302V660H432v357.77777a517.39619,517.39619,0,0,0,160,0V660Z"></path></svg>Login with Facebook
+                    
+                </button>
+                <div class="">
+                <div class=" py-1 mt-1 text-xs text-center"> <a href=""> <p>Forgot your password?</p></div> </a>
+                </div>
+                <div>
+                    <p class="text-xs  text-center">Don't have an account?<a  href=""> Register</a></p>
+                    
+                </div>
+                </div>
+                <div class="md:block hidden w-1/2 ">
+                    <img class="rounded-2xl mt-4" src="photos/image.png" alt="" >
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+          </body>
+          </html>
+        
